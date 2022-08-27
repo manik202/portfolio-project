@@ -1,0 +1,212 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+margin:0;
+padding:0;
+
+/* font-family: 'Handlee', cursive; */
+font-family: 'Montserrat', sans-serif;
+
+
+
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Nunito', sans-serif;
+}
+
+header{
+   background-image:url("web.jpg");
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.navbar{
+    padding: 1% 10%;
+  
+    font-size:1.2rem;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+.navbar-nav {
+    
+    padding:1% 0% 1% 35%;
+    text-decoration: none;
+}
+.navbar-icon{
+    color:white;
+}
+.nav-link{
+    color:white;
+    border-radius:5px;
+    margin:0 auto;
+    transition:.5s;
+}
+.nav-link1{
+    color:white;
+    margin-bottom:-1px;
+    text-decoration:none;
+
+}
+.nav-item{
+margin:7px;
+}
+.banner-container{
+    height:100vh;
+}
+h1{
+    font-size: 3.5rem;
+    background-color:black;
+    text:white;
+    border-radius:5px;
+    padding:9px;
+    font-family: 'Handlee', cursive;
+
+
+
+}
+#features{
+    padding:5% 10%;
+    background:#e8d1d2;
+}
+.features-col{
+    border:1px solid #ff02c0;
+    border-radius:5px;
+    padding:15px;
+    margin:20px 0;
+    transition: .4s;
+}
+.features-col:hover{
+    transform:scale(1.1);
+    box-shadow:2px 6px 5px;
+
+
+}
+.icon-style{
+    background: #bb0aac;
+    color:white;
+    padding:15px;
+    margin:5px 0;
+
+
+}
+.features-col::after{
+    clear:both;
+    display:table;
+    content:'';
+}
+.basic-desc{
+    border:0.1px solid rgb(220, 197, 197);
+    border-radius: 5%;
+    padding:2px;
+}
+.achieve-desc{
+      border:0.1px solid rgb(220, 197, 197);
+    border-radius: 5%;
+    padding:2px;
+    margin-top:13px;
+    }
+    .basic-bash{
+        margin-top:12px;
+        border:0.1px solid rgb(220, 197, 197);
+        border-radius: 5%;
+        }
+    
+
+#about-me{
+    padding:4% 10%;
+    background:#e8d1d2;
+
+}
+#about-me p{
+    font-size:0.9rem;
+    margin-bottom:0;
+    font-weight: light;
+}
+#about-me a{
+
+}
+.manik{
+    font-weight:bolder;
+}
+.star i{
+    color:red;
+    width:30px;
+}
+.skill-desc{
+    margin-top: 12px;
+    border:0.1px solid rgb(220, 197, 197);
+    border-radius: 5%;
+}
+.section-title::after{
+    content:'';
+    clear:"both";
+    display:"table";
+}
+/* totorial starts here */
+#tutorial{
+    padding: 4% 10%;
+    background: #a3d2ca ;
+}
+.card{
+    transition: .4s;
+    border:1px solid #ff02c0;
+}
+.card:hover{
+    transform:scale(1.1);
+    box-shadow:2px 6px 5px black;
+}
+
+
+/* totorial ends here */
+/* feedback starts here */
+.row1{
+    background:green;
+}
+#feedback{
+    padding:5%;
+    background:rgb(64, 211, 64) ;
+}
+.carousel-item{
+    text-align:center;
+    padding:7% 15%;
+    font-style:italic;
+    font-size:1.2rem;
+}
+.feedback-img{
+    width: 120px;
+    height:auto;
+    margin-bottom:6px;
+}
+
+
+/* feedback starts here */
+/* contact starts here */
+#contact{
+    background:#59A0AA;
+    
+}
+.form-group label{
+    font-weight: bolder;
+    margin-bottom:0;
+}
+/* contact starts here */
+/* footer starts here */
+footer{
+    background:#03414B;
+    margin-top:0px;
+    padding:1% 10%;
+}
+footer a{
+    color:white;
+    margin:0 20px;
+}
+footer a:hover{
+    color:black;
+}
+/* footer starts here */
+@media(max-width:768px){
+    .nav-link{
+        background:(0,0,0,0.7);
+    }
+}
